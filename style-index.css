@@ -1,5 +1,23 @@
 body {
     background-image: url(spacebackground.png);
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 
+}
+
+h1 {
+    color:aliceblue
+}
+
+a:link{
+    color:blue
+}
+
+a:visited{
+    color:blueviolet
+}
+
+h3{
+    color:brown
 }
