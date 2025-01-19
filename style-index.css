@@ -1,18 +1,46 @@
-.wrapper {
-    display:grid;
-    position: relative;
-    margin: auto;
+body {
+    background-image:url(mainbackgrounds/virtuagalaxy.gif); 
+    background-repeat: repeat;
 }
 
+#wrapper {
+    display: grid;
+    grid-template-areas:
+        "header header header"
+        "left-column main right-column"
+        "footer footer footer";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
 
+#header-flex {
+    grid-area: header;
+    display:flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
+#left-column-flex {
+    grid-area: left-column;
+}
 
-body {
-    background-image: url(spacebackground.png);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+#right-column-flex {
+    grid-area: right-column;
+}
 
+#main-flex {
+    grid-area: main;
+}
+
+#footer-flex {
+    grid-area: footer;
+
+}
+
+#APTBAONFIYA {
+    display: block;
+    align-self: center;
 }
 
 h1 {
