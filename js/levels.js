@@ -12,7 +12,7 @@ export default {
         const loadedLevels = [];
 
         for (const levelName of this.levelOrder) {
-            const res = await fetch(`./data/${levelName}.json`);
+            const res = await fetch(`./aptba/data/${levelName}.json`);
             const data = await res.json();
             loadedLevels.push(data);
         }
