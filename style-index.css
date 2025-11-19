@@ -53,23 +53,6 @@ body {
 
 }
 
-#tegan {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-
-}
-
-#tegan img {
-    padding: 10px;
-
-}
-
-#tegan p {
-    font-size: 20px;
-
-}
-
 h1 {
     color:green
 }
